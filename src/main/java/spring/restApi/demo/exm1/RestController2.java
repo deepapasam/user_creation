@@ -31,5 +31,9 @@ public class RestController2 {
 		
 		return "hello every one";
 	}
+	@GetMapping("/nary")
+	public String goodBoy() {
+		return "narendra";
+	}
 
 }
