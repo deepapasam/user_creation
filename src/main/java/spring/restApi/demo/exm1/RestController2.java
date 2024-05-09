@@ -35,5 +35,10 @@ public class RestController2 {
 	public String goodBoy() {
 		return "narendra";
 	}
+	
+	@GetMapping("/msg")
+	public String greet() {
+		return"hiii";
+	}
 
 }
